@@ -1,0 +1,635 @@
+@charset 'utf-8';
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background:#fff;
+}
+.full_landing .cont {opacity:0;transform:translate(0, 0); transition:all 1.5s ease;}
+.full_landing .cont.action {opacity:1;transform:translate(0, 0);}
+
+.justify{text-align: justify;}
+/* Animation for the title */
+@-webkit-keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@-moz-keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@-o-keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@-ms-keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+
+/* Animation for the title */
+@-webkit-keyframes timeAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@-moz-keyframes timeAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@-o-keyframes timeAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@-ms-keyframes timeAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+@keyframes timeAnimation {
+    0% {
+        opacity: 0;
+        transform:translate(0, 40px); transition:all 0.5s ease-out;
+    }
+    50% { opacity:1;transform:translate(0, 0); }
+    100% { opacity:1;transform:translate(0, 0); }
+}
+.title-logo{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 422px;
+    background: url('../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/title.png') center center no-repeat;
+    background-size: 403px 211px;
+    text-indent: -9999px;
+    -webkit-animation: titleAnimation 5s linear;
+    -moz-animation: titleAnimation 5s linear;
+    -o-animation: titleAnimation 5s linear;
+    -ms-animation: titleAnimation 5s linear;
+    animation: titleAnimation 5s linear;
+}
+.footer{
+	text-align:center;
+}
+.footer .credit{
+	line-height:20px;
+	font-size:13px;
+	padding-bottom:10px;
+	color:#848585;
+}
+.footer .credit a{
+	line-height:20px;
+	font-size:13px;
+	padding-bottom:10px;
+	color:#848585;
+}
+.footer .copyright{
+	font-size:13px;
+	color:#696b6e;
+}
+#myImages {
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/timelabs12_2.gif) center center no-repeat;
+	background-size: cover;
+}
+.section.bg1{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_1.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg2{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_2.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg3{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_7.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg4{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_3.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg5{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_4.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg6{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_5.jpg) top center no-repeat;
+	background-size: cover;
+}
+.section.bg7{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_5.jpg) top left no-repeat;
+	background-size: cover;
+}
+.section.bg8{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_6.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg9{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_6.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg10{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_11.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bg11{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/img_10.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bgNew1{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/bgNew1.jpg) center center no-repeat;
+	background-size: cover;
+}
+.section.bgNew2{
+	width: 100%;
+	height:100%;
+    background: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/bgNew2.jpg) center center no-repeat;
+	background-size: cover;
+}
+#myImages-right img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top:0;
+	width: auto;
+	height: 100%;
+	background-position: center center;
+	background-size: cover;
+	z-index:3;
+}
+#myImages-left img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top:0;
+	width: auto;
+	height: 100%;
+	background-position: center center;
+	background-size: cover;
+	z-index:3;
+}
+.layer{
+	 position: absolute;
+	 z-index: 30;
+	 z-index: 30;
+	 color:#fff;
+ }
+ .sec0{
+	width: 403px;
+	top: 8%;
+	left: 50%;
+	margin-left: -221px;
+ }
+ .sec1{
+	width: 823px;
+ 	top: 13%;
+	left:50%;
+	margin-left:-408px;
+ }
+.sec2{
+	width: 686px;
+ 	top: 19%;
+	left:50%;
+	margin-left:-344px;
+ }
+.sec3{
+	width: 604px;
+	top: 40%;
+	left:50%;
+	margin-left:-239px;
+}
+.sec4{
+	width: 400px;
+	top: 33%;
+	left:0;
+	margin-left:387px;
+	text-align:left;
+}
+.sec5{
+	width: 476px;
+ 	top: 16.5%;
+	left:50%;
+	margin-left:-238px;
+ }
+ .sec6{
+ 	width: 619px;
+ 	top: 26%;
+ 	left:50%;
+ 	margin-left:-308px;
+ }
+ .sec6-2{
+ 	width: 752px;
+ 	top: 28%;
+ 	left:50%;
+ 	margin-left:-374px;
+ }
+ .sec7{
+ 	width: 644px;
+ 	top: 34%;
+ 	left:50%;
+ 	margin-left:-308px;
+	text-align:left;
+ }
+ .sec7-1{
+   width: 746px;
+   top: 42%;
+   left:50%;
+   margin-left:-364px;
+ }
+ .sec8{
+	width: 556px;
+	top: 14%;
+	left:50%;
+	margin-left:-238px;
+ }
+ .secNew1{
+	 width: 709px;
+     top: 34%;
+     left: 50%;
+     margin-left: -343px;
+     text-align: left;
+ }
+ .secNew2{
+	 width: 668px;
+     top: 45%;
+     left: 50%;
+     margin-left: -321px;
+     text-align: left;
+ }
+ .sec9{
+	width: 481px;
+	top: 12%;
+	left:50%;
+	margin-left:-225px;
+	-webkit-animation: timeAnimation 5s linear;
+    -moz-animation: timeAnimation 5s linear;
+    -o-animation: timeAnimation 5s linear;
+    -ms-animation: timeAnimation 5s linear;
+    animation: timeAnimation 5s linear;
+ }
+.layer .chapter{
+	width:65px;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	padding:5px 0 7px;
+	margin:0 auto 20px;
+	font-size:14px;
+	font-weight:100;
+	font-family: 'Noto Sans KR' !important;
+}
+.layer .chapter-left{
+	width:65px;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	padding:5px 0 7px;
+	margin:0 0 20px;
+	font-size:14px;
+	font-weight:100;
+	font-family: 'Noto Sans KR' !important;
+}
+.layer .tit{
+	padding-bottom:15px;
+	font-size:41px;
+	letter-spacing:-1.7px;
+	text-align:left;
+}
+.layer .txt p{
+	font-size: 19px;
+    letter-spacing: -0.7px;
+    font-weight: 100;
+    font-family: 'Noto Sans KR', '맑은 고딕','Malgun Gothic';
+    line-height: 32px;
+    color: #dbdbdb;
+    line-height: 28px;
+	text-align:left;
+}
+.layer .txt .f1{
+	padding-bottom:16px;
+}
+.txt-1-1{
+	padding-bottom:10px;
+	color:#fff;
+	font-size:19px;
+	letter-spacing:-1.5px;
+	font-weight:100;
+	font-family: 'Nanum Myeongjo', serif !important;
+}
+.txt-1-2{
+	color:#d5d5d5;
+	font-size:18px;
+}
+.Date_Time {
+	position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 30;
+    font-size: 31px;
+    color: #fff;
+    padding: 8px 15px;
+    background: #000;
+	color: #d7d7d7;
+	font-weight:bold;
+	-webkit-animation: timeAnimation 4s linear;
+    -moz-animation: timeAnimation 4s linear;
+    -o-animation: timeAnimation 4s linear;
+    -ms-animation: timeAnimation 4s linear;
+    animation: timeAnimation 4s linear;
+    /* border-radius: 30px; */
+}
+.Date_Time div{
+	font-family: 'DSDIGI' !important;
+	letter-spacing: 1.2px;
+	/* font-weight:100;
+	font-family: 'Noto Sans KR' !important; */
+}
+.fontsforweb {
+	font-family: 'DSDIGI' !important;
+}
+.Date_Time2 {
+	position: relative !important;
+	margin:0 !important;
+    z-index: 30;
+    font-size: 70px;
+    color: #fff;
+    padding: 0 !important;
+    background: transparent !important;
+    /* border-radius: 30px; */
+    /* margin-left: -72px; */
+}
+.Date_Time2 div{
+	letter-spacing: 1.4px;
+	font-family: 'DSDIGI' !important;
+	/* font-family: 'DSDIGI' !important; */
+}
+
+.shadow{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+98&0+0,0.65+97 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 97%, rgba(0,0,0,0.65) 98%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 97%,rgba(0,0,0,0.65) 98%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 97%,rgba(0,0,0,0.65) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+.shadow-top{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,000000+100&0.65+3,0+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 1%, rgba(0,0,0,0.65) 3%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.65) 3%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.65) 3%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.shadow-strong{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+-1,000000+0,000000+73&0+1,0.86+72 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) -1%, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.86) 72%, rgba(0,0,0,0.86) 73%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) -1%,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.86) 72%,rgba(0,0,0,0.86) 73%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) -1%,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.86) 72%,rgba(0,0,0,0.86) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#db000000',GradientType=0 ); /* IE6-9 */
+}
+.shadow-left{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0+0,0+16,0.85+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 16%, rgba(0,0,0,0.85) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=0 ); /* IE6-9 */
+}
+.shadow-left-strong{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+-1,000000+52,000000+100&0.86+52,0+100 */
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.86) -1%, rgba(0,0,0,0.86) 52%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.86) -1%,rgba(0,0,0,0.86) 52%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,0.86) -1%,rgba(0,0,0,0.86) 52%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+.shadow-bottom{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+6,000000+100&0+6,0+6,0.55+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 6%, rgba(0,0,0,0.55) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 6%,rgba(0,0,0,0.55) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0.55) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#8c000000',GradientType=0 ); /* IE6-9 */
+}
+.shadow-bottom2{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+85&0+0,0+0,0+16,0.85+85 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 16%, rgba(0,0,0,0.85) 85%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0.85) 85%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0.85) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=0 ); /* IE6-9 */
+}
+.pattern {
+    background-image: url(../../../../img.hani.co.kr/section-image/interactive/chimney_diary/img/pattern.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index:10;
+
+}
+.header-tit{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:40px;
+	font-size:20px;
+	z-index:12;
+}
+.header-tit h1{
+	float:left;
+	margin: 20px;
+}
+.header-tit .sns-wrap {
+	float:right;
+	margin: 20px;
+}
+.header-tit .sns-wrap ul li{
+	float:left;
+	margin-left: 7px
+}
+.scroll-downs {
+  position: absolute;
+  right: 0;
+  bottom:85px;
+  left: 0;
+  margin: auto;
+  width :30px;
+  height: 40px;
+  z-index:20;
+}
+.scroll-name{
+	padding-bottom: 5px;
+	color:#fff;
+	font-size:12px;
+	font-weight:100;
+	letter-spacing:1px;
+	line-height:16px;
+	font-family: 'Noto Sans KR' !important;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(23px); opacity: 0;}
+}
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+	z-index:20;
+}
+.arrows path {
+	stroke: #fff;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
